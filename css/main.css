@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+/* font-family: 'Hanalei Fill', cursive; */
+
+body{
+    background-color: rgba(152, 233, 159, 0.637);
+}
+nav.navbar{
+    background-color: rgba(241, 190, 113, 0.568);
+    color:darkblue;
+    padding: 20px;
+}
+.navbar-brand h3{
+    /* background-color: ; */
+    display: inline-block;
+    font-size: 45px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Audiowide', cursive;
+    text-transform: uppercase;
+    transition: all 0.8s;
+}
+.navbar-brand h3:hover{
+    color: forestgreen;
+}
