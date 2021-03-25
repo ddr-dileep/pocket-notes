@@ -22,3 +22,33 @@ nav.navbar{
 .navbar-brand h3:hover{
     color: forestgreen;
 }
+
+.flex-tem {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    }
+    .flex-tem button {
+      justify-content: center;
+  
+    }
+
+@media (max-width: 768px){
+    .navbar-brand h3
+    {
+        font-size: 27px;
+    }
+
+    
+.flex-tem {
+    display:flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items:center;
+    }
+    .flex-tem button {
+      justify-content: center;
+  
+    }
+
+}
